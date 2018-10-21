@@ -8,9 +8,7 @@
 
 <h1> Welcome to my site </h1>
 
-<?php
-echo "The time is " . date("h:i:sa");
-?>
+
 
 
 	</head>
@@ -49,6 +47,11 @@ echo "The time is " . date("h:i:sa");
 	Message: <textarea name="message" rows="5" cols="40"></textarea><br>
 <input type="submit">
 </form>	
+	
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"];<br>
+Your message is<?php? echo $POST["message"]?>
+
 
   <p> Twitter: <a href="https://twitter.com/holyjesssus"> @Holyjesssus</a></p>
 	
