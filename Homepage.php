@@ -8,6 +8,8 @@
   Your Subject is<?php? echo $POST["subject"]?><br>
   Your Message is<?php? echo $POST["message"]?>
 
+  <?php echo date("2018");?>
+
 </body>
   
 </html>
