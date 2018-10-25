@@ -48,10 +48,12 @@
 	Message: <textarea name="message" rows="5" cols="40"></textarea><br>
 <input type="submit">
 </form>	
+
+<?php echo "string";?>
 	
   <p> Twitter: <a href="https://twitter.com/holyjesssus"> @Holyjesssus</a></p>
 	
-   &copy; 2018-<date action="homepage.php">
+   &copy; 2018-<date action="Homepage.php">
 	
 </footer>
 
